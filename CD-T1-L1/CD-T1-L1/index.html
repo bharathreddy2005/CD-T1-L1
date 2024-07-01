@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      background-color: #f2f2f2; /* Set your desired background color */
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .flex-columns {
+      display: flex;
+      justify-content: space-between;
+    }
+    .story {
+      flex-basis: 30%;
+      margin-bottom: 20px;
+    }
+    .story img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc; /* Added border styling */
+      border-radius: 5px; /* Added border radius for rounded corners */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Added box shadow for a subtle effect */
+    }
+    .food-images img {
+      max-width: 150px; /* Adjusted max-width for larger images */
+      height: auto;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc; /* Added border styling */
+      border-radius: 5px; /* Added border radius for rounded corners */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Added box shadow for a subtle effect */
+    }
+  </style>
+</head>
+<body>
+
+  <header class="showPage">
+    <h1>Barcelona Landing Page</h1>
+    <p>All about this beautiful city</p>
+    <button type="button" class="btn-1">Read More</button>
+  </header>
+
+  <section id="section-1" style="padding: 20px;">
+    <h1>About Barcelona</h1>
+    <p>Barcelona is a vibrant city known for its stunning architecture, delicious cuisine, and rich cultural heritage. Located on the northeastern coast of Spain, it is the capital of Catalonia. The city boasts famous landmarks such as Antoni Gaudí's Sagrada Família and Park Güell, as well as beautiful beaches along the Mediterranean Sea.</p>
+    <p>Visitors can explore the Gothic Quarter with its narrow streets and medieval buildings, or enjoy a stroll down La Rambla, a bustling street lined with shops, restaurants, and street performers. Barcelona is also famous for its football club, FC Barcelona, and the iconic Camp Nou stadium.</p>
+    <h2>Famous Food in Barcelona</h2>
+    <p>Barcelona offers a delightful culinary experience with dishes such as Paella, Tapas, and Catalan Cream (Crema Catalana). These dishes reflect the region's Mediterranean influence and rich culinary traditions.</p>
+    <div class="food-images">
+      <img src="images/paella.jpg" alt="Paella">
+      <img src="images/tapas.jpg" alt="Tapas">
+      <img src="images/crema_catalana.jpg" alt="Catalan Cream">
+    </div>
+  </section>
+
+  <section id="section-2">
+    <h1>Some Cool Stories</h1>
+    <div class="flex-columns">
+      <div class="story">
+        <img src="images/story1.jpg" alt="Story 1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptate laborum exercitationem delectus perspiciatis nemo unde fuga alias, porro similique distinctio adipisci sint quisquam atque culpa eum ipsa assumenda, quidem, odit officiis expedita ea illum nisi libero! Modi voluptatem iste nulla tenetur expedita doloremque, impedit aliquam sed adipisci repellendus at.</p>
+      </div>
+      <div class="story">
+        <img src="images/story2.jpg" alt="Story 2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptate laborum exercitationem delectus perspiciatis nemo unde fuga alias, porro similique distinctio adipisci sint quisquam atque culpa eum ipsa assumenda, quidem, odit officiis expedita ea illum nisi libero! Modi voluptatem iste nulla tenetur expedita doloremque, impedit aliquam sed adipisci repellendus at.</p>
+      </div>
+      <div class="story">
+        <img src="images/story3.jpg" alt="Story 3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptate laborum exercitationem delectus perspiciatis nemo unde fuga alias, porro similique distinctio adipisci sint quisquam atque culpa eum ipsa assumenda, quidem, odit officiis expedita ea illum nisi libero! Modi voluptatem iste nulla tenetur expedita doloremque, impedit aliquam sed adipisci repellendus at.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
